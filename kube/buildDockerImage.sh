@@ -1,5 +1,5 @@
 #!/bin/bash
 
-docker build -t alexmickelson/sudonet:0.7 -f ../Sudo/Dockerfile ..
+docker build -t alexmickelson/sudonet:latest -f ../Sudo/Dockerfile ..
 
-docker push alexmickelson/sudonet:0.7
+docker push alexmickelson/sudonet:latest
